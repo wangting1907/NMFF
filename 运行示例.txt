@@ -1,0 +1,1 @@
+python train_unmixing_nmf_non_uniform.py -e 30 --dataset dataset_real_samson.mat --frame_gap 1 --outf samson_nonuniform_test --embed 1.25_15 --loss Fusion17 --warmup 0.2 --lr_type cosine -b 1 --lr 0.0005
